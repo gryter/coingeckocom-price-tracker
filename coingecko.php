@@ -302,7 +302,7 @@ function widget($args, $instance) {
    echo $before_widget;
   
   // Display the Coin Gecko ticker  
-   echo '<div><iframe id="widget-ticker-preview" src="//www.coingecko.com/en/widget_component/ticker/'.$crypto.'/'.$currency.'?id='.$crypto.'" style="border:none; height:125px; width: 275px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>';
+   echo '<div><iframe id="widget-ticker-preview" src="//www.coingecko.com/en/widget_component/ticker/'.$crypto.'/'.$currency.'?id='.$crypto.'" style="border:none; height:125px; width: 100%;" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>';
    
    echo $after_widget;
 }

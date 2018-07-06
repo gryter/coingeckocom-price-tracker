@@ -243,6 +243,8 @@ if( $instance) {
 	<option value="eagscurrency" <?php selected($instance['crypto'], 'eagscurrency'); ?>>EagsCurrency</option>
 	<option value="diamond" <?php selected($instance['crypto'], 'diamond'); ?>>Diamond</option>
 	<option value="tilecoin" <?php selected($instance['crypto'], 'tilecoin'); ?>>TileCoin</option>
+	<option value="steem" <?php selected($instance['crypto'], 'steem'); ?>>STEEM</option>
+	<option value="steem-dollars" <?php selected($instance['crypto'], 'steem-dollars'); ?>>SBD</option>
     </select>
 </p>
 
